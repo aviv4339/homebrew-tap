@@ -5,21 +5,21 @@
 class Cornholio < Formula
   desc "AI Agent Reporter & Analyzer - The Great Cornholio sees all"
   homepage "https://github.com/aviv4339/cornholio"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/aviv4339/cornholio/releases/download/v0.1.0/cornholio_0.1.0_darwin_amd64.tar.gz"
-    sha256 "5b75b133bcfa39741fcfccefa30e0536e4ced882aaa17764f812b65fbc116a9a"
+    url "https://github.com/aviv4339/cornholio/releases/download/v0.2.0/cornholio_0.2.0_darwin_amd64.tar.gz"
+    sha256 "1137f22fcc08b66423c11bd74d5c4f7ce27ed7d28ea2e8a628a684cee51e7146"
 
     def install
       bin.install "cornholio"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/aviv4339/cornholio/releases/download/v0.1.0/cornholio_0.1.0_darwin_arm64.tar.gz"
-    sha256 "3dd8e908b33545a39712672ffffce982e3b7839a90b274589e819910027e6d8c"
+    url "https://github.com/aviv4339/cornholio/releases/download/v0.2.0/cornholio_0.2.0_darwin_arm64.tar.gz"
+    sha256 "d3acd8756849be6776f109fa25ee7d3f59ea2fe6ed58c6e576a987edb7b28840"
 
     def install
       bin.install "cornholio"
